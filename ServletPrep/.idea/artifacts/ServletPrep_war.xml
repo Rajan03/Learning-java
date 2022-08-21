@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ServletPrep:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ServletPrep</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ServletPrep-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ServletPrep:war exploded" />
+    </root>
+  </artifact>
+</component>
